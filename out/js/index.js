@@ -1,0 +1,1 @@
+var moreBtn=document.getElementsByClassName("mnav1")[0];moreBtn.addEventListener("mouseenter",changemoreenter,!1),moreBtn.nextElementSibling.addEventListener("mouseleave",changemoreleave,!1);
