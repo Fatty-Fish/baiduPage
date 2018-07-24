@@ -1,0 +1,47 @@
+.guide {
+    position:absolute;
+    right:150px;
+    top:100px;
+    width:400px;
+    /* margin: 20px; */
+    padding:20px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+}
+.guide_nav{
+    font-size: 14px;
+    height: 46px;
+    line-height: 66px;
+    padding-left: 118px;
+    color: #000;
+    background-image:url(../images/baidu.1.png);
+    background-repeat:no-repeat;
+    background-size:100px 46px;
+    margin:1px 20px 15px 20px;
+}
+.guide_qrcode {
+    margin:5px auto;
+    height:172px;
+    width:172px;
+    overflow:hidden;
+    transition: all 200ms linear;
+}
+.guide_qrcode:hover {
+    width:280px;
+}
+.guide_qrcode img:nth-of-type(1) {
+    height:150px;
+    padding:10px;
+    border: 1px solid rgba(0, 0, 0, 0.192)
+}
+.guide_qrcode img:nth-of-type(2) {
+    height:172px;
+}
+.guide_line {
+    text-align:center;
+}
+.guide_line .app {
+    text-decoration:none;
+}
+.guide_line .app:hover {
+    color:rgba(81, 9, 163, 0.9)
+}

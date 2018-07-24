@@ -1,0 +1,21 @@
+#input_ul {
+    position:absolute;
+    left: 50%;
+    top:35px;
+    width:578px;
+    margin-left:-290px;
+    background:white;
+    border:1px solid rgba(0, 0, 0, 0.185);
+    border-top:none;
+    list-style:none;
+    font-size:14px;
+    display:none;
+}
+#input_ul li a {
+    padding:8px;
+    text-decoration:none;
+    color:black;
+}
+#input_ul li:hover {
+    background:#f0f0f0
+}

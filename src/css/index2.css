@@ -1,0 +1,144 @@
+* {
+	padding:0;
+	margin:0;
+}
+body .wrapper {
+    position:absolute;
+    left:100px;
+    top:100px;
+	width:700px;
+	height:500px;
+}
+body .wrapper p {
+	position: relative;
+    clear: both;
+    margin: 20px 0;
+    zoom: 1;
+    height:42px;
+}
+body .wrapper p .content {
+	float: left;
+	display:block;
+    height: 42px;
+    width: 65px;
+    margin-right: 10px;
+    line-height: 42px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 700;
+    text-align: right;
+}
+body .wrapper p input {
+	position: relative;
+    float: left;
+    height: 42px;
+    width: 328px;
+    padding: 11px 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #666;
+}
+body .wrapper .register {
+    position: relative;
+    display:block;
+    left:74px;
+    height: 42px;
+    width: 328px;
+    margin-right: 10px;
+    margin-bottom:10px;
+    border: 1px solid #3f89ec;
+    font-size: 14px;
+    color:white;
+    font-weight: 700;
+    text-align: center;
+    background-color: #3f89ec;
+}
+.wrapper p .clear {
+	position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url(https://passport.baidu.com/static/passpc-account/img/reg/reg_icons.png);
+    top: 12px;
+    left: 376px;
+    background-repeat: no-repeat;
+    background-position:  -32px -24px;
+    cursor: pointer;
+}
+.wrapper p #errorname, #emptyname {
+	float: left;
+    position: relative;
+    width: 250px;
+    top: 12px;
+    color: #fc4343;
+    height: 16px;
+    line-height: 14px;
+    padding-left: 20px;
+    font-size:12px;
+    background: url(https://passport.baidu.com/static/passpc-account/img/reg/err_small.png);
+    background-repeat: no-repeat;
+    background-position:  0 0 ;
+}
+.wrapper p #successname {
+	position: relative;
+    float: left;
+    top: 14px;
+    color: #fc4343;
+    height: 16px;
+    line-height: 12px;
+    padding-left: 20px;
+    background: url(https://passport.baidu.com/static/passpc-account/img/reg/reg_icons.png);
+    background-repeat: no-repeat;
+    background-position:  -80px 0 ;
+}
+.wrapper p .tip {
+	width:270px;
+	padding-top: 10px;
+	font-size: 12px;
+	color:#aaa;
+}
+.wrapper p #errorphone {
+	float: left;
+    position: relative;
+    width: 250px;
+    top: 12px;
+    color: #fc4343;
+    height: 16px;
+    font-size:12px;
+    line-height: 14px;
+    padding-left: 20px;
+    background: url(https://passport.baidu.com/static/passpc-account/img/reg/err_small.png);
+    background-repeat: no-repeat;
+    background-position:  0 0 ;
+}
+.wrapper p #successphone {
+	position: relative;
+    float: left;
+    top: 14px;
+    color: #fc4343;
+    height: 16px;
+    line-height: 12px;
+    padding-left: 20px;
+    background: url(https://passport.baidu.com/static/passpc-account/img/reg/reg_icons.png);
+    background-repeat: no-repeat;
+    background-position:  -80px 0 ;
+}
+.wrapper p #successpassword {
+	position: relative;
+    float: left;
+    top: 14px;
+    color: #fc4343;
+    height: 16px;
+    line-height: 12px;
+    padding-left: 20px;
+    background: url(https://passport.baidu.com/static/passpc-account/img/reg/reg_icons.png);
+    background-repeat: no-repeat;
+    background-position:  -80px 0 ;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,157 @@
+*{
+	margin:0;
+	padding:0;
+}
+i {
+	margin:0 5px;
+}
+.ul_wrapper {
+	position:relative;
+	height:50px;
+}
+.ul {
+	position:absolute;
+	right:0;
+}
+.ul .mnav {
+	float:left;
+	font-size:14px;
+	font-weight:550;
+	color:black;
+	padding:10px 10px;
+}
+.ul::after {
+	content:"";
+	clear: both;
+	display: block;
+}
+.more_list {
+	position:absolute;
+	display: none;
+	text-align:center;
+	right:0px;
+	top:0px;
+	width:100px;
+	border:1px solid #f0f0f0;
+	background-color:#f9f9f9;
+}
+.mnav1 {
+	background-color:rgba(0, 89, 255,0.5);
+	display:inline-block;
+	width:80px;
+	height:25px;
+	margin-top:8px;
+	margin-left: 10px;
+	margin-right:20px;
+	text-decoration:none;
+	color:#fff;
+	font-size:14px;
+	line-height:25px;
+	text-align:center;
+}
+.baidu {
+	z-index:1px;
+	width:254px;
+	height:130px;
+	margin:0px auto;
+}
+.baidu .img1 {
+	width:100%;
+	height:100%;
+}
+
+.input {
+	position:relative;
+	margin-bottom: 175px;
+}
+#img {
+	position:absolute;
+	left: 50%;
+	width:580px;
+	height:35px;
+	padding:8px;
+	margin-left:-290px;
+	border:1px solid rgba(0, 0, 0, 0.185);
+	background-image:url(../images/camera.jpg);
+    background-size:30px 30px;
+    background-position:460px 0px;
+    background-repeat:no-repeat;
+    overflow:hidden;
+}	
+#content {
+	position:absolute;
+	left:50%;
+	display:block;
+	width:80px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	margin-left:210px;
+	border: none;
+	color:white;
+	text-decoration:none;
+	cursor:pointer;
+    background-color:rgba(0, 89, 255, 0.623);
+}
+#content:hover {
+	background-color:rgba(0, 14, 255)
+}
+.img2 {
+	width:70px;
+	height:70px;
+	margin:0 auto;
+	background-image:url(../images/qr.png);
+}
+.qr_code {
+	margin-bottom: 50px;
+}
+.qr_code p {
+	margin-top:10px;
+	text-align: center;
+}
+.last_about{ 
+	margin:0 auto;
+	text-align:center;
+}
+.index{
+	font-size:12px;
+	font-weight:normal;
+	color:#b8b8b8;
+	padding:10px 10px;
+}
+.last_cont {
+	text-align: center;
+}
+.last_cont p {
+	display: inline;
+}
+.content1, .content2, .last3, .last1, .last2 {
+	padding:0 5px;
+	font-size:8px;
+	color:#b8b8b8;
+}
+.content2 {
+	margin-right: 8px;
+}
+.jing {
+	position:relative;
+	top:3px;
+	width: 14px;
+	height: 17px;
+	display: inline-block;
+	background-position: -600px -96px;
+    overflow: hidden;
+	background-image: url(../images/police.png);
+	background-repeat:no-repeat;
+}
+.prepare {
+	position:relative;
+	top:3px;
+	width: 14px;
+	height: 17px;
+	background-position: -623px -96px;
+    display: inline-block;
+    overflow: hidden;
+	background-image: url(../images/police.png);
+	background-repeat:no-repeat;
+}

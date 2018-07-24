@@ -1,0 +1,16 @@
+{
+    "name": "baidu",
+    "version": "1.0.0",
+    "description": "html js css3 gulp",
+    "keywords": [
+        "baidu page"
+    ],
+    "author": "fatty-fish",
+    "license": "MIT",
+    "dependencies": {
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "^3.9.4",
+        "gulp-imagemin": "^4.1.0",
+        "gulp-uglify": "^3.0.0"
+    }
+}
